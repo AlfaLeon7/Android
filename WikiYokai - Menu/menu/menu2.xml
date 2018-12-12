@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="item1"
+        android:id="@+id/buscar"
+        app:showAsAction="always"
+        android:icon="@drawable/webicon"
+        />
+
+    <item
+        android:title="item2"
+        android:id="@+id/compartir"
+        app:showAsAction="always"
+        android:icon="@drawable/icon1"
+        />
+
+    <item
+        android:title="item3"
+        android:id="@+id/correo"
+        app:showAsAction="always"
+        android:icon="@drawable/sendmail"
+        />
+
+
+
+</menu>

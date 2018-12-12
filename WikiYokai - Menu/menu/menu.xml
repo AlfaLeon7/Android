@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="addmonstruo"
+        android:id="@+id/addmonstruo"
+        app:showAsAction="always"
+        android:icon="@drawable/addmonstruo"
+        />
+
+
+    <item
+        android:title="filtrar"
+        android:id="@+id/filtrar"
+        app:showAsAction="always"
+        android:icon="@drawable/filtrar"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+    <item
+        android:title="title3"
+        android:id="@+id/title3"
+        app:showAsAction="always"
+        android:icon="@drawable/icon2"
+        />
+
+
+
+</menu>
